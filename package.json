@@ -1,0 +1,24 @@
+{
+    "name": "netcentric-iq180",
+    "dependencies": {
+        "@types/mathjs": "^6.0.7",
+        "@types/socket.io": "^2.1.11",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "mathjs": "^7.6.0",
+        "nanoid": "^3.1.16",
+        "reflect-metadata": "^0.1.13",
+        "rxjs": "^6.6.3",
+        "socket-controllers": "^0.0.5",
+        "@types/cors": "^2.8.8",
+        "@types/express": "^4.17.8",
+        "typescript": "^4.0.5"
+    },
+    "scripts": {
+        "tsc": "tsc",
+        "build": "npm run tsc",
+        "format": "prettier --write '**/*.{ts,md,json}'",
+        "start:staging": "node build/app.js",
+        "start": "npm run start:staging"
+    }
+}
